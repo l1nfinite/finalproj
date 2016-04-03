@@ -11,19 +11,48 @@ body {
 }
 
 h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
 	font-size: 2em;
 	color: #1253A4;
 	text-transform: uppercase;
 }
 
 h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
 	font-size: 1.5em;
 	color: #30302f;
+	text-transform: uppercase;
 }
 
 p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
 	font-size: 1em;
 	color: #30302f;
+}
+
+a:link {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: #f26964;
+	text-decoration: underline dotted #f26964;
+}
+
+a:visited {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: #f26964;
+}
+
+a:hover {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: #ffd464;
+	text-decoration: underline dotted #ffd464;
+	-webkit-transition: width 0.5s; 
+    transition: width 0.5s;
 }
 
 
