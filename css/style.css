@@ -4,8 +4,27 @@
 
 
 /* HTML selectors */
+body {
+	background-color: #F4F4F2;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
 
+h1 {
+	font-size: 2em;
+	color: #1253A4;
+	text-transform: uppercase;
+}
 
+h2 {
+	font-size: 1.5em;
+	color: #30302f;
+}
+
+p {
+	font-size: 1em;
+	color: #30302f;
+}
 
 
 
