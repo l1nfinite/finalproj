@@ -84,8 +84,7 @@ nav{
 }
 
 header nav{
-	background-color: #30302f;
-	/*background-color:#212121;*/
+	background-color: #1253a4;
 }
 
 
@@ -165,6 +164,45 @@ a#logo{
 	/*color:#1253a4;*/
 
 }
+
+a#logo:link{
+	text-decoration:none;
+	font-size:1.4em;
+	display:inline-block;
+	margin:0.5em;
+	padding:0;
+	color:#ffd464;
+}
+
+a#logo:visited{
+	text-decoration:none;
+	font-size:1.4em;
+	display:inline-block;
+	margin:0.5em;
+	padding:0;
+	color:#ffd464;
+}
+
+a#logo:hover{
+	text-decoration:none;
+	font-size:1.4em;
+	display:inline-block;
+	margin:0.5em;
+	padding:0;
+	color:#f4f4f2;
+}
+
+
+a#logo:active{
+	text-decoration:none;
+	font-size:1.4em;
+	display:inline-block;
+	margin:0.5em;
+	padding:0;
+	color:#ffd464;
+}
+
+
 
 #header-text{
 	color:#fff;
