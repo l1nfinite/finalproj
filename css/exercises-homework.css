@@ -1,0 +1,64 @@
+/* Fonts */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+
+/* HTML selectors */
+
+table, tr {
+	width: 95%;
+	border: 1px solid none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td {
+	border: solid 1px #1253a4;
+}
+
+td h3 {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+tr {
+	border: solid 1px #1253a4;
+}
+
+
+/* Class selectors */
+.tba{
+	color: grey;
+	text-decoration: line-through;
+}
+
+.button-container {
+	margin:auto;
+	text-align: center;
+	padding-bottom: 2em;
+}
+
+
+.button-red {
+	padding: 15px;
+	background-color: #F4F4F2;
+	color: #F26964;
+	cursor: pointer;
+	font-family: 'Montserrat';
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-top: 40px;
+	border: 2px solid #F26964;
+	display:inline-block;
+}
+
+.button-red:hover {
+	background-color: #F26964;
+	border-color: #F26964;
+	color: #F4F4F2;
+	-webkit-transition: all 0.5s; 
+    transition: all 0.5s;
+}
+/* ID selectors */
+
+
