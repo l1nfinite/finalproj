@@ -55,6 +55,11 @@ a:hover {
     transition: all 0.5s;
 }
 
+a:active {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: #f26964;
+}
 
 
 /* Class selectors */
@@ -63,3 +68,9 @@ a:hover {
 
 
 /* ID selectors */
+
+#currentpage{
+	border-bottom:;
+	padding-bottom:0.02em;
+
+}
