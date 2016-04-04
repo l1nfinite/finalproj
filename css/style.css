@@ -28,6 +28,15 @@ h2 {
 	text-transform: uppercase;
 }
 
+h3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 1.15em;
+	color: #30302f;
+	text-transform: uppercase;
+
+}
+
 p {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
