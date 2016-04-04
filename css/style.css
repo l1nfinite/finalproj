@@ -50,6 +50,7 @@ a:hover {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
 	color: #ffd464;
+	-webkit-text-decoration: underline dotted #ffd464;
 	text-decoration: underline dotted #ffd464;
 	-webkit-transition: all 0.5s; 
     transition: all 0.5s;
@@ -77,6 +78,24 @@ header nav ul li{
 }
 
 header nav ul li a:link{
+	font-weight: 300;
+	text-decoration:none;
+	color: #f4f4f2;
+}
+
+header nav ul li a:visited{
+	font-weight: 300;
+	text-decoration:none;
+	color: #f4f4f2;
+}
+header nav ul li a:hover{
+	font-weight: 300;
+	text-decoration:none;
+	color: #ffd464;
+	-webkit-transition: all 0.5s; 
+    transition: all 0.5s;
+}
+header nav ul li a:active{
 	font-weight: 300;
 	text-decoration:none;
 	color: #f4f4f2;
