@@ -61,7 +61,26 @@ a:active {
 	color: #f26964;
 }
 
+header nav{
+	background-color: #30302f;
+}
 
+header nav ul{
+	margin:0;
+}
+
+header nav ul li{
+	list-style-type:none;
+	display:inline-block;
+	padding:1em;
+	letter-spacing:0.08em;
+}
+
+header nav ul li a:link{
+	font-weight: 300;
+	text-decoration:none;
+	color: #f4f4f2;
+}
 /* Class selectors */
 
 
