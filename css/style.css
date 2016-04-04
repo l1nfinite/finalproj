@@ -4,6 +4,7 @@
 
 
 /* HTML selectors */
+
 body {
 	background-color: #F4F4F2;
 	font-family: 'Roboto', sans-serif;
@@ -62,12 +63,29 @@ a:active {
 	color: #f26964;
 }
 
+header{
+	margin-top:0;
+	background-color: #30302f;
+
+}
+
+
+
+nav{
+	position:fixed;
+	width:100%;
+	top:0;
+
+}
+
 header nav{
 	background-color: #30302f;
 }
 
+
 header nav ul{
 	margin:0;
+	float:right;
 }
 
 header nav ul li{
@@ -75,6 +93,7 @@ header nav ul li{
 	display:inline-block;
 	padding:1.2em;
 	letter-spacing:0.08em;
+	float:left;
 }
 
 header nav ul li a:link{
@@ -99,6 +118,10 @@ header nav ul li a:active{
 	font-weight: 300;
 	text-decoration:none;
 	color: #f4f4f2;
+}
+
+section{
+	margin-top:6em;
 }
 /* Class selectors */
 
