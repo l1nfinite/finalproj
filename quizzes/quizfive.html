@@ -1,0 +1,121 @@
+<!DOCtype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>COMP 1950 | quizzes | quiz five</title>
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/quiz.css">
+
+
+ <!-- Google Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+
+	<header>
+		<nav>
+			<a href="#" id="logo">COMP1950</h1>
+			<p id="header-text">intermediate web design and development</p>
+			<ul>
+				<li><a href="lectures/index.html">lectures</a></li>
+				<li><a href="#">session files</a></li>
+				<li><a id="currentpage" href="#">quizzes</a></li>
+			<ul>
+		</nav>
+	</header>
+
+
+	<section>
+
+		<h1>Quizzes</h1>
+		<h2>Quiz #5</h2>
+
+		<fieldset>
+				<legend>
+					Student Information
+				</legend>
+				<form action="http://bcitcomp.ca/1850/comp1850_homework05.php" method="post">
+					<label class="labelstyle" for="firstname">First name</label>
+								
+					<input	type="text"
+							id="firstname"
+							name="firstname"/>
+
+					<label class="labelstyle" for="lastname">Last name</label>
+					<input	type="text"
+							id="lastname"
+							name="lastname"/>
+					
+					<label class="labelstyle">Name prefix</label>
+					<label class="radiolabel" for="mr">Mr.</label>
+					<input	type="radio"
+							class="radiostyle"
+							id="mr"
+							checked
+							name="prefix"
+							value="mr"/>
+
+					<label class="radiolabel" for="mrs">Mrs.</label>
+					<input	type="radio"
+							class="radiostyle"
+							id="mrs"
+							name="prefix"
+							value="mrs"/>
+
+					<label class="radiolabel"for="ms">Ms.</label>
+					<input	type="radio"
+							class="radiostyle"
+							id="ms"
+							name="prefix"
+							value="ms"/>
+
+					<label class="labelstyle" for="studentnumber">Student number
+					</label>
+					<input	type="text"
+							id="studentnumber"
+							name="studentnumber"/>
+
+					
+					<label class="labelstyle" for="courses">
+						Select the BCIT course(s) you plan to register for
+					</label>
+					<p>
+						Hold the cntrl or command key to select multiple courses.
+					</p>
+					<select multiple="multiple"
+							id="courses"
+							name="courses">
+
+						<option value="comp1850">COMP1850</option>
+						<option value="comp1950">COMP1950</option>
+						<option value="comp1920">COMP1920</option>
+						<option value="comp1409">COMP1409</option>
+						<option value="comp1630">COMP1630</option>
+						<option value="comp1911">COMP1911</option>
+						<option value="comp2899">COMP2899</option>
+
+					</select>
+				
+					<label class="labelstyle" for="comments">Comments</label>
+					<textarea cols="30" rows="10" name="comments" id="comments"></textarea>
+					<br/>
+					<input id="submit" type="submit" value="Submit">
+				</form>
+			</fieldset>
+
+	</section>
+
+	<footer>
+
+		<span>Jeff Parker | jeffery_parker@bcit.ca</span>
+		<span><a href="#">about the course</a> | <a href="#">resources</a></span>
+		<span><a href="#">my bcit</a> | <a href="#">bcit site</a> | <a href="#">bcit:computing</a></span>
+
+	</footer>
+</body>
+
+</html>

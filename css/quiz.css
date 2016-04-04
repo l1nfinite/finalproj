@@ -39,6 +39,27 @@ a:hover h3 {
 }
 
 
+fieldset {
+	border-width: 1px;
+	border-style: solid;
+	border-color:  #4169E1;
+	text-align: center;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input, select, textarea {
+	border-color:  #4169E1;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #F5F5F5;
+	padding: 10px;
+	font-family: 'Roboto';
+	color:  #4169E1;
+	font-size: 1em;
+}
+
 /* Class selectors */
 .tba{
 	color: grey;
@@ -47,3 +68,19 @@ a:hover h3 {
 
 
 /* ID selectors */
+
+#submit {
+	padding: 15px;
+	background-color:  #4169E1;
+	color: white;
+	border-width: 1px;
+	border-color:  #4169E1;
+	margin: 40px;
+	cursor: pointer;
+}
+
+#submit:hover {
+	background-color: #F5F5F5;
+	border-color: #4169E1;
+	color: #4169E1;
+}
