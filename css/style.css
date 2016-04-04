@@ -72,7 +72,7 @@ header nav ul{
 header nav ul li{
 	list-style-type:none;
 	display:inline-block;
-	padding:1em;
+	padding:1.2em;
 	letter-spacing:0.08em;
 }
 
@@ -89,7 +89,8 @@ header nav ul li a:link{
 /* ID selectors */
 
 #currentpage{
-	border-bottom:;
-	padding-bottom:0.02em;
+	padding:0;
+	border-bottom:0.19em solid #f4f4f2;
+	padding-bottom:0.1em;
 
 }
