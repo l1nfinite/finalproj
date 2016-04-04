@@ -9,6 +9,7 @@ body {
 	background-color: #F4F4F2;
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
+	height:100%;
 }
 
 h1 {
@@ -128,6 +129,12 @@ header nav ul li a:active{
 
 section{
 	margin-top:6em;
+}
+
+footer{
+	width:100%;
+	background-color:#ccc;
+	margin-top:55em;
 }
 
 /* Class selectors */
