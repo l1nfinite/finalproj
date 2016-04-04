@@ -1,5 +1,14 @@
 /* HTML selectors */
+table, tr, td {
+	width: 100%;
+	border: 1px solid none;
+	text-align: center;
+}
 
+td h3 {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
 
 
 /* Class selectors */
