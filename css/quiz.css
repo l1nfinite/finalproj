@@ -3,6 +3,8 @@ table, tr, td {
 	width: 100%;
 	border: 1px solid none;
 	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 td h3 {
@@ -10,9 +12,38 @@ td h3 {
 	padding-bottom: 1em;
 }
 
+tr {
+	border: solid 1px #1253a4;
+}
+
+tr:nth-child(2n) {
+    background-color: #e7edf5;  
+}
+
+a h3 {
+	color: #1253a4;
+}
+
+a:link h3 {
+	color: #1253a4;
+}
+
+a:visited h3 {
+	color: #1253a4;
+}
+
+a:hover h3 {
+	color: #ffd464;
+	-webkit-transition: all 0.5s; 
+    transition: all 0.5s;
+}
+
 
 /* Class selectors */
-
+.tba{
+	color: grey;
+	text-decoration: line-through;
+}
 
 
 /* ID selectors */
