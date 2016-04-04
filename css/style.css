@@ -170,6 +170,26 @@ footer span p{
 
 /* Class selectors */
 
+.button {
+	padding: 15px;
+	background-color: #F4F4F2;
+	color: #1253A4;
+	cursor: pointer;
+	font-family: 'Montserrat';
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-top: 40px;
+	border: 2px solid #1253A4;
+	display:inline-block;
+}
+
+.button:hover {
+	background-color: #1253A4;
+	border-color: #1253A4;
+	color: #F4F4F2;
+	-webkit-transition: all 0.5s; 
+    transition: all 0.5s;
+}
 
 
 /* ID selectors */
