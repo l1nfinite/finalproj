@@ -158,13 +158,11 @@ footer{
 }
 
 footer span{
-	margin-left:auto;
-	margin-right:auto;
+	margin-right:3em;
 }
 
 
 footer span p{
-	margin-right:3em;
 	display:inline;
 
 }
