@@ -69,26 +69,29 @@ a:active {
 header{
 	margin-top:0;
 	background-color: #30302f;
+	position:relative;
 
 }
-
 
 
 nav{
 	position:fixed;
 	width:100%;
 	top:0;
+	padding-left:1em;
 
 }
 
 header nav{
 	background-color: #30302f;
+	/*background-color:#212121;*/
 }
 
 
 header nav ul{
 	margin:0;
 	float:right;
+
 }
 
 header nav ul li{
@@ -96,7 +99,7 @@ header nav ul li{
 	display:inline-block;
 	padding:1.2em;
 	letter-spacing:0.08em;
-	float:left;
+	
 }
 
 header nav ul li a:link{
@@ -126,8 +129,8 @@ header nav ul li a:active{
 section{
 	margin-top:6em;
 }
-/* Class selectors */
 
+/* Class selectors */
 
 
 
@@ -137,4 +140,21 @@ section{
 	border-bottom:0.19em solid #f4f4f2;
 	padding-bottom:0.1em;
 
+}
+
+a#logo{
+	text-decoration:none;
+	font-size:1.4em;
+	display:inline-block;
+	margin:0.5em;
+	padding:0;
+	/*color:#1253a4;*/
+
+}
+
+#header-text{
+	color:#fff;
+	font-size:0.6em;
+	margin-top:0.35em;
+	margin-bottom:0.3em;
 }
