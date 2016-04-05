@@ -1,27 +1,29 @@
-a{
+#side-nav-wrapper a{
 	text-decoration:none;
+	border-bottom:none;
 
 }
 
-nav{
+#side-nav-wrapper nav{
 	background-color:#F4F4F2;
 	position:fixed;
 	height:100%;
 	width:13em;
-	border-right:0.05em solid #ddd;
+	border-right:0.1em solid #ddd;
 	top:3.65em;
+	padding-top:2em;
 }
 
-nav ul{
+#side-nav-wrapper nav ul{
 	height:100%;
 	width:100%;
-	padding-left:0;
-	margin-right:auto;
-	margin-left:auto;
+	padding:0;
+	right:0.01em;
+
 	position:absolute;
 }
 
-nav ul li{
+#side-nav-wrapper nav ul li{
 	list-style-type:none;
 	margin-left:1em;
 	padding-top:0.25em;
@@ -30,7 +32,7 @@ nav ul li{
 
 }
 
-nav ul li a{
+#side-nav-wrapper nav ul li a{
 	color:#30302f;
 	text-transform:capitalize;
 	font: 300 0.9em 'roboto','arial', sans-serif;
@@ -41,19 +43,19 @@ nav ul li a{
 
 }
 
-nav ul li:link{
+#side-nav-wrapper nav ul li:link{
 	color:#30302f;
 	letter-spacing:0.08em;
 
 }
 
-nav ul li:visited{
+#side-nav-wrapper nav ul li:visited{
 	color:#30302f;
 	letter-spacing:0.08em;
 
 }
 
-nav ul li:hover{
+#side-nav-wrapper nav ul li:hover{
 	color:#30302f;
 	letter-spacing:0.08em;
 	background-color:#fff;
@@ -62,7 +64,7 @@ nav ul li:hover{
 }
 
 
-nav ul li:active{
+#side-nav-wrapper nav ul li:active{
 	color:#30302f;
 	letter-spacing:0.08em;
 
