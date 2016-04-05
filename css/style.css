@@ -211,12 +211,22 @@ ul.squarelist {
 	display:inline-block;
 }
 
+.button:link{
+	border: 2px solid #1253A4;
+}
+
+
 .button:hover {
 	background-color: #1253A4;
 	border-color: #1253A4;
 	color: #F4F4F2;
 	-webkit-transition: all 0.5s; 
     transition: all 0.5s;
+}
+
+.button:active{
+	border: 2px solid #1253A4;
+	
 }
 
 
