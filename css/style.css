@@ -186,7 +186,15 @@ footer span p{
 
 }
 
+article {
+	padding-bottom: 1.5em;
+}
+
 /* Class selectors */
+
+.squarelist ul {
+	list-style-type: square;
+}
 
 .button {
 	padding: 15px;
