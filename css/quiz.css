@@ -150,3 +150,39 @@ input, select, textarea {
     transition: all 0.5s;
 }
 
+/* styles for printers */
+@media print { 
+	body {
+		font-size: 0.65em;
+	}
+
+	nav, footer { 
+		display: none !important;
+	}
+
+	section {
+		margin-right: auto;
+		margin-left: auto;
+		padding: 0px 10px 0px 105px;
+	}		
+
+	a:link:after, 
+	a:visited:after{
+	   content: " (URL: " attr(href) ") ";
+	   font-size: 90%;
+	}
+
+	#submit {
+		display: none;
+	}
+
+	fieldset {
+		width: 100%;
+	}
+
+	input, select, textarea {
+	padding: 5px;
+
+}
+
+}
