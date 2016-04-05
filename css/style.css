@@ -145,9 +145,7 @@ header nav ul li a:active{
 }
 
 section{
-	margin-top:6em;
-	margin-left:auto;
-	margin-right:auto;
+	margin-top:7em;
 }
 
 footer{
@@ -267,26 +265,10 @@ a#logo:active{
 
 /* home page styling */
 
-#homepage-img-wrapper{
-	margin-left:auto;
-	margin-right:auto;
-	display:block;
-	width:800px;
-	border:0.25em solid #000;
-
-}
-
-#homepage-img-wrapper>img{
-	width:200px;
-	padding:1.5em 2em;
-	margin-left:auto;
-	margin-right:auto;
-}
-
-/*homepage layout colums*/
 
 #wrapper{
-	margin:2em 20em;
+	margin-right:5em;
+	margin-left:5em;
 }
 
 #left{
@@ -295,7 +277,6 @@ a#logo:active{
 	display:inline-block;
 	margin-right:auto;
 	margin-left:auto;
-	border:1px solid #ccc;
 	text-align:center;
 
 }
@@ -308,7 +289,6 @@ a#logo:active{
 	display:inline-block;
 	margin-right:auto;
 	margin-left:auto;
-	border:1px solid #ccc;
 	text-align:center;
 }
 
@@ -319,7 +299,6 @@ a#logo:active{
 	display:inline-block;
 	margin-right:auto;
 	margin-left:auto;
-	border:1px solid #ccc;
 	text-align:center;
 }
 
