@@ -41,6 +41,8 @@
 	jQuery(document).ready(function($) {
     	jQuery('#accordion').dcAccordion();
 
+
+
 	});
 
 	</script>
@@ -50,9 +52,10 @@
 	<!--#include file="../nav.shtml" -->
 
 	<div id="page-wrapper">
+	<!--
 
 		<div id="side-nav-wrapper">
-		<!--
+		
 				<nav>
 					<ul id="accordion" class="menu">
 						<li><a href="#">1 - tools & standards</a>
@@ -90,94 +93,106 @@
 
 
 -->
-	<ul id="accordion" class="menu">
-    <li><a href="#">1 - tools & standards</a>
-	    <ul>
-            <li><a href="#">introductions</a>
-            </li>
-            <li><a href="#">tools</a>
-            </li>
-            <li><a href="#">standards</a>
-            </li>
-            <li><a href="#">summary</a>
-            </li>
-        </ul>
-    </li>
-    <li><a href="#">2 - html 5</a>
-        <ul>
-            <li><a href="#">xhtml</a>
-            </li>
-            <li><a href="#">html 5</a>
-            </li>
-            <li><a href="#">css</a>
-            </li>
-            <li><a href="#">summary</a>
-            </li>
-            <li><a href="#">download .zip files</a>
-            </li>
-        </ul>
-    </li>
 
-	    <li><a href="#">3 - css techniques</a>
-	        <ul>
-	            <li><a href="#">xhtml</a>
-	            </li>
-	            <li><a href="#">html 5</a>
-	            </li>
-	            <li><a href="#">css</a>
-	            </li>
-	            <li><a href="#">summary</a>
-	            </li>
-	            <li><a href="#">download .zip files</a>
-	            </li>
-	        </ul>
-		</li>
+<div id="side-nav-wrapper">
 
-		<li><a href="#"> 4 - css layouts</a>
-	        <ul>
-	            <li><a href="#">xhtml</a>
-	            </li>
-	            <li><a href="#">html 5</a>
-	            </li>
-	            <li><a href="#">css</a>
-	            </li>
-	            <li><a href="#">summary</a>
-	            </li>
-	            <li><a href="#">download .zip files</a>
-	            </li>
-	        </ul>
-		</li>
+	<div id="side-nav-style">
+			<ul id="accordion" class="menu">
+			    <li><a href="#">1 - tools & standards</a>
+				    <ul>
+			            <li><a href="#">introductions</a>
+			            </li>
+			            <li><a href="#">tools</a>
+			            </li>
+			            <li><a href="#">standards</a>
+			            </li>
+			            <li><a href="#">summary</a>
+			            </li>
+			        </ul>
+			    </li>
+			    <li><a href="#">2 - html 5</a>
+			        <ul>
+			            <li><a href="#">xhtml</a>
+			            </li>
+			            <li><a href="#">html 5</a>
+			            </li>
+			            <li><a href="#">css</a>
+			            </li>
+			            <li><a href="#">summary</a>
+			            </li>
+			            <li><a href="#">download .zip files</a>
+			            </li>
+			        </ul>
+			    </li>
 
+				    <li><a href="#">3 - css techniques</a>
+				        <ul>
+				            <li><a href="#">xhtml</a>
+				            </li>
+				            <li><a href="#">html 5</a>
+				            </li>
+				            <li><a href="#">css</a>
+				            </li>
+				            <li><a href="#">summary</a>
+				            </li>
+				            <li><a href="#">download .zip files</a>
+				            </li>
+				        </ul>
+					</li>
 
-		<li><a href="#">5 - responsive css</a>
-	        <ul>
-	            <li><a href="#">xhtml</a>
-	            </li>
-	            <li><a href="#">html 5</a>
-	            </li>
-	            <li><a href="#">css</a>
-	            </li>
-	            <li><a href="#">summary</a>
-	            </li>
-	            <li><a href="#">download .zip files</a>
-	            </li>
-	        </ul>
-		</li>
-
-		<li><a href="#">6 - css3</a></li>
-		<li><a href="#">7 - javascript frameworks</a></li>
-		<li><a href="#">8 - dynamic content </a></li>
-		<li><a href="#">9 - templating, seo </a></li>
-		<li><a href="#">10 - methodology</a></li>
-		<li><a href="#">11 - project work </a></li>
+					<li><a href="#"> 4 - css layouts</a>
+				        <ul>
+				            <li><a href="#">xhtml</a>
+				            </li>
+				            <li><a href="#">html 5</a>
+				            </li>
+				            <li><a href="#">css</a>
+				            </li>
+				            <li><a href="#">summary</a>
+				            </li>
+				            <li><a href="#">download .zip files</a>
+				            </li>
+				        </ul>
+					</li>
 
 
-	</ul>
+					<li><a id="current-week" class="active" href="#">5 - responsive css</a>
+				        <ul>
+				            <li><a href="#">printers</a>
+				            </li>
+				            <li><a href="#">media queries</a>
+				            </li>
+				            <li><a href="#">fixed vs fluid</a>
+				            </li>
+				            <li><a href="#">summary</a>
+				            </li>
+				            <li><a href="#">download .zip files</a>
+				            </li>
+				        </ul>
+					</li>
+
+					<div id="disabled">
+					
+
+						<li><a href="#">6 - css3</a></li>
+						<li><a href="#">7 - javascript frameworks</a></li>
+						<li><a href="#">8 - dynamic content </a></li>
+						<li><a href="#">9 - templating, seo </a></li>
+						<li><a href="#">10 - methodology</a></li>
+						<li><a href="#">11 - project work </a></li>
+
+					</div>
+
+
+			</ul>
+	</nav>
+
+	</div>
 
 		<section id="lecture">
 
-			<h1>Session 2 - html 5</h1>
-			<h2>xhtml</h2>
+			<h1>Session 5 - responsive css</h1>
+			<h2>Styling for printers</h2>
 			<p>Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 
 			<ul class="squarelist">
@@ -192,7 +207,7 @@
 			<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis.</p>
 
 
-			<h3>what is xhtml?</h3>
+			<h3>best practices</h3>
 			<p>Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper.
 			Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod.</p>
 
@@ -200,7 +215,7 @@
 
 			<p> Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.Nulla vitae elit libero, a pharetra augue.</p>
 
-			<h3>what's different?</h3>
+			<h3>embedded</h3>
 			<p>Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper.</p>
 
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
@@ -208,7 +223,7 @@
 			<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum. Nullam quis risus eget urna mollis ornare vel eu leo. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<p>
 			<hr>
 
-			<h2>Html 5</h2>
+			<h2>Media queries</h2>
 			<h3>subtitle</h3>
 			<p>Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
 
@@ -218,7 +233,7 @@
 			<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus.</p>
 			<hr>
 
-			<h2>CSS</h2>
+			<h2>fixed vs fluid</h2>
 			<h3>subtitle</h3>
 			<p>Maecenas faucibus mollis interdum. Curabitur blandit tempus porttitor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nulla vitae elit libero, a pharetra augue. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
 
