@@ -94,3 +94,43 @@ li {
 /* ID selectors */
 
 
+
+
+/* styles for printers */
+@media print { 
+	body {
+		font-size: 0.65em;
+	}
+
+	nav, footer { 
+		display: none !important;
+	}
+
+	section {
+		margin-right: auto;
+		margin-left: auto;
+		padding: 0px 10px 0px 10px;
+	}		
+
+	a:link:after, 
+	a:visited:after{
+	   content: " (URL: " attr(href) ") ";
+	   font-size: 90%;
+	}
+
+	ul, li {
+		margin-left: -1em;
+	}
+
+	table, tr {
+		width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	td {
+		padding: 1em;
+	}
+
+
+}

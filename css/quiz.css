@@ -163,7 +163,7 @@ input, select, textarea {
 	section {
 		margin-right: auto;
 		margin-left: auto;
-		padding: 0px 10px 0px 105px;
+		padding: 0px 10px 0px 10px;
 	}		
 
 	a:link:after, 
