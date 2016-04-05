@@ -1,8 +1,8 @@
 section#lecture{
-	margin-left:auto;
+	margin-left:25%;
 	margin-right:auto;
 	width:60em;
-	border:1px solid #ccc;
+	/*border:1px solid #ccc;*/
 	display:block;
 
 
