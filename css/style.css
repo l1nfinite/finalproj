@@ -335,3 +335,18 @@ a#logo:active{
 	text-align:center;
 
 }
+
+#left:hover{	
+	opacity:0.75;
+	filter: alpha(opacity=75); /* For IE8 and earlier */
+}
+
+#middle:hover{
+	opacity:0.75;
+	filter: alpha(opacity=75); /* For IE8 and earlier */
+}
+
+#right:hover{	
+	opacity:0.75;
+	filter: alpha(opacity=75); /* For IE8 and earlier */
+}
