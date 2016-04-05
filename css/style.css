@@ -6,6 +6,12 @@
 
 /* HTML selectors */
 
+html, body{
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
 body {
 	background-color: #F4F4F2;
 	font-family: 'Roboto', sans-serif;
@@ -150,13 +156,23 @@ section{
 	margin-top:7em;
 }
 
+#page-wrapper{
+	min-height:100%;
+	position:relative;
+
+}
+
 footer{
 	background-color:#ccc;
-	margin-top:55em;
+	/*margin-top:55em;*/
+	position:absolute;
+	bottom:0;
+	display:block;
 	padding-top:1.2em;
-	padding-bottom:1.2em;
 	padding-left:1em;
 	font-size:0.85em;
+	height:5em;
+
 }
 
 footer span{
@@ -165,7 +181,7 @@ footer span{
 
 
 footer span p{
-	display:inline;
+	display:inline-block;
 
 }
 
