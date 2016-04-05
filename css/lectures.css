@@ -76,6 +76,11 @@ section#lecture{
 
 }
 
+/*#side-nav-style ul li ul li a:nth-last-child(){
+	color:#1253a4;
+
+}*/
+
 
 /*nav children*/
 #side-nav-style ul li ul a{
