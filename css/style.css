@@ -193,7 +193,7 @@ article {
 
 /* Class selectors */
 
-.squarelist ul {
+ul.squarelist {
 	list-style-type: square;
 }
 
