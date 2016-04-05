@@ -21,6 +21,7 @@ section#lecture{
 }
 
 
+/*nav parent*/
 
 #side-nav-style ul li{
 	list-style-type:none;
@@ -35,16 +36,6 @@ section#lecture{
 	font: 300 0.9em 'roboto', sans-serif;
 
 }
-
-/*
-#side-nav-style ul li ul li:hover{
-	background-color:#fff;
-	display:inline-block;
-}
-*/
-
-/*nav parent*/
-
 
 
 #side-nav-wrapper a{
@@ -104,6 +95,8 @@ section#lecture{
 
 #side-nav-style #disabled li a{
 	color:#ccc;
+	pointer-events:none;
+	cursor:default;
 }
 
 
