@@ -9,6 +9,7 @@
 html, body{
 	margin:0;
 	padding:0;
+	height:100%;
 }
 
 body {
@@ -16,7 +17,6 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	margin-left:0;
-	height:100%;
 }
 
 h1 {
@@ -100,7 +100,7 @@ nav{
 	top:0;
 	margin-left:0;
 	padding-left:0.25em;
-	z-index:1;
+	z-index:100;
 
 }
 
@@ -154,6 +154,7 @@ header nav ul li a:active{
 
 section{
 	margin-top:7em;
+	margin-bottom:10em;
 }
 
 #page-wrapper{
