@@ -14,6 +14,7 @@ table, tr {
 
 td {
 	border: solid 1px #1253a4;
+	width: 33%;
 }
 
 td h3 {
@@ -36,6 +37,28 @@ li {
 }
 
 /* Class selectors */
+
+.redtable td {
+	border: solid 1px #F26964;
+	width: 33%;
+}
+
+.redtable tr {
+	border: solid 1px #F26964;
+}
+
+.redtable a:link {
+	color: #F26964;
+}
+
+.redtable a:visited {
+	color: #F26964;
+}
+
+.redtable a:hover {
+	color: #ffd464;
+}
+
 .tba{
 	color: grey;
 	text-decoration: line-through;

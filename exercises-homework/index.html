@@ -12,6 +12,29 @@
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+		<!-- load the required jQUery library -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"> </script>
+	<script>
+
+		$(document).ready(function(){
+			/*
+			Displaying Page Content Examples:
+			*/
+			$("#homework-table").hide();
+							
+			$("#exercises-btn").click(function(){
+				$("#exercise-table").show();
+				$("#homework-table").hide();
+			});
+			$("#homework-btn").click(function(){
+				$("#homework-table").show();
+				$("#exercise-table").hide();
+			});
+				
+		});
+	</script>	
+
+
 </head>
 <body>
 
@@ -21,31 +44,31 @@
 
 	<section>
 		<div class="button-container">
-			<span class="button">Exercises</span>
-			<span class="button-red">Homework</span>
+			<input type="button" class="button" id="exercises-btn" value="Exercises" />
+			<input type="button" class="button-red" id="homework-btn" value="Homework" />
 		</div>
 
-		<table>
+		<table id="exercise-table">
 			<tr>
 				<td>
 					<h3>Session 1</h3>
 					<ul>
-						<li><a href="#">HTML Basics</a> | <a href="#">HTML Basics (completed)</a></li>
-						<li><a href="#">HTML Basics</a> | <a href="#">HTML Basics (completed)</a></li>
+						<li>Exercise 1: <a href="http://bcitcomp.ca/_shared_resources_1950/downloads/session02_exercise01.zip">HTML Basics</a> | <a href="http://bcitcomp.ca/_shared_resources_1950/downloads/session02_exercise01_sample.zip">Solution</a></li>
+						<li>Exercise 2: <a href="http://bcitcomp.ca/_shared_resources_1950/downloads/session02_exercise02.zip">HTML5 Tags</a></li>
 					</ul>
 				</td>
 				<td>
 					<h3>Session 2</h3>
 					<ul>
-						<li><a href="#">HTML Basics</a> | <a href="#">HTML Basics (completed)</a></li>
-						<li><a href="#">HTML Basics</a> | <a href="#">HTML Basics (completed)</a></li>
+						<li>Exercise 1: <a href="http://bcitcomp.ca/_shared_resources_1950/downloads/session02_exercise01.zip">HTML Basics</a> | <a href="http://bcitcomp.ca/_shared_resources_1950/downloads/session02_exercise01_sample.zip">Solution</a></li>
+						<li>Exercise 2: <a href="http://bcitcomp.ca/_shared_resources_1950/downloads/session02_exercise02.zip">HTML5 Tags</a></li>
 					</ul>
 				</td>
 				<td>
 					<h3>Session 3</h3>
 					<ul>
-						<li><a href="#">HTML Basics</a> | <a href="#">HTML Basics (completed)</a></li>
-						<li><a href="#">HTML Basics</a> | <a href="#">HTML Basics (completed)</a></li>
+						<li>Exercise 1: <a href="http://bcitcomp.ca/_shared_resources_1950/downloads/session02_exercise01.zip">HTML Basics</a> | <a href="http://bcitcomp.ca/_shared_resources_1950/downloads/session02_exercise01_sample.zip">Solution</a></li>
+						<li>Exercise 2: <a href="http://bcitcomp.ca/_shared_resources_1950/downloads/session02_exercise02.zip">HTML5 Tags</a></li>
 					</ul>
 				</td>
 			</tr>
@@ -53,45 +76,105 @@
 				<td>
 					<h3>Session 4</h3>
 					<ul>
-						<li><a href="#">HTML Basics</a> | <a href="#">HTML Basics (completed)</a></li>
-						<li><a href="#">HTML Basics</a> | <a href="#">HTML Basics (completed)</a></li>
+						<li>Exercise 1: <a href="http://bcitcomp.ca/_shared_resources_1950/downloads/session02_exercise01.zip">HTML Basics</a> | <a href="http://bcitcomp.ca/_shared_resources_1950/downloads/session02_exercise01_sample.zip">Solution</a></li>
+						<li>Exercise 2: <a href="http://bcitcomp.ca/_shared_resources_1950/downloads/session02_exercise02.zip">HTML5 Tags</a></li>
 					</ul>
 				</td>
 				<td>
 					<h3>Session 5</h3>
 					<ul>
-						<li><a href="#">HTML Basics</a> | <a href="#">HTML Basics (completed)</a></li>
-						<li><a href="#">HTML Basics</a> | <a href="#">HTML Basics (completed)</a></li>
+						<li>Exercise 1: <a href="http://bcitcomp.ca/_shared_resources_1950/downloads/session02_exercise01.zip">HTML Basics</a> | <a href="http://bcitcomp.ca/_shared_resources_1950/downloads/session02_exercise01_sample.zip">Solution</a></li>
+						<li>Exercise 2: <a href="http://bcitcomp.ca/_shared_resources_1950/downloads/session02_exercise02.zip">HTML5 Tags</a></li>
 					</ul>
 				</td>
 				<td>
-					<h3>Session 1</h3>
+					<h3>Session 6</h3>
 					<ul>
-						<li><a href="#">HTML Basics</a> | <a href="#">HTML Basics (completed)</a></li>
-						<li><a href="#">HTML Basics</a> | <a href="#">HTML Basics (completed)</a></li>
+						<li></li>
 					</ul>
 				</td>
 			</tr>
 			<tr>
 				<td>
-					<h3>Session 1</h3>
+					<h3>Session 7</h3>
 					<ul>
-						<li><a href="#">HTML Basics</a> | <a href="#">HTML Basics (completed)</a></li>
-						<li><a href="#">HTML Basics</a> | <a href="#">HTML Basics (completed)</a></li>
+						<li></li>
 					</ul>
 				</td>
 				<td>
-					<h3>Session 1</h3>
+					<h3>Session 8</h3>
 					<ul>
-						<li><a href="#">HTML Basics</a> | <a href="#">HTML Basics (completed)</a></li>
-						<li><a href="#">HTML Basics</a> | <a href="#">HTML Basics (completed)</a></li>
+						<li></li>
 					</ul>
 				</td>
 				<td>
-					<h3>Session 1</h3>
+					<h3>Session 9</h3>
 					<ul>
-						<li><a href="#">HTML Basics</a> | <a href="#">HTML Basics (completed)</a></li>
-						<li><a href="#">HTML Basics</a> | <a href="#">HTML Basics (completed)</a></li>
+						<li></li>
+					</ul>
+				</td>
+			</tr>
+			
+		</table>
+
+		<table id="homework-table" class="redtable">
+			<tr>
+				<td>
+					<h3>Homework 1</h3>
+					<ul>
+						<li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/comp1950_homework01.pdf" target="_blank">Publish your COMP1950 homepage</a></li>
+					</ul>
+				</td>
+				<td>
+					<h3>Homework 2</h3>
+					<ul>
+						<li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/comp1950_homework02.pdf" target="_blank">Create an HTML5 web page</a></li>
+					</ul>
+				</td>
+				<td>
+					<h3>Homework 3</h3>
+					<ul>
+						<li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/comp1950_homework03.pdf" target="_blank">Use advanced CSS techniques and alternate stylesheets</a></li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h3>Homework 4</h3>
+					<ul>
+						<li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/comp1950_homework04.pdf" target="_blank">Design a CSS layout</a></li>
+					</ul>
+				</td>
+				<td>
+					<h3>Homework 5</h3>
+					<ul>
+						<li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/comp1950_homework05.pdf" target="_blank">Build a responsive layout and demonstrate CSS3 techniquese</a></li>
+					</ul>
+				</td>
+				<td>
+					<h3>Homework 6</h3>
+					<ul>
+						<li></li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h3>Homework 7</h3>
+					<ul>
+						<li></li>
+					</ul>
+				</td>
+				<td>
+					<h3>Homework 8</h3>
+					<ul>
+						<li></li>
+					</ul>
+				</td>
+				<td>
+					<h3>Homework 9</h3>
+					<ul>
+						<li></li>
 					</ul>
 				</td>
 			</tr>
