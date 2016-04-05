@@ -1,18 +1,8 @@
-<!DOCTYPE html>
-	<html>
-	<head>
-		<meta charset="utf-8">
-		<title>footer</title>
-		<link rel="stylesheet" href="css/style.css">
-	</head>
 
-	<body>
-		<footer>
+<footer>
 
-				<span><p>Jeff Parker | jeffery_parker@bcit.ca</p></span>
-				<span><a href="#">about the course</a> | <a href="#">resources</a></span>
-				<span><a href="#">my bcit</a> | <a href="#">bcit site</a> | <a href="#">bcit:computing</a></span>
+	<span><p>Jeff Parker | jeffery_parker@bcit.ca</p></span>
+	<span><a href="#">about the course</a> | <a href="#">resources</a></span>
+	<span><a href="#">my bcit</a> | <a href="#">bcit site</a> | <a href="#">bcit:computing</a></span>
 
-		</footer>
-	</body>
-</html>
+</footer>
