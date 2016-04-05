@@ -289,30 +289,27 @@ a#logo:active{
 	margin:2em 20em;
 }
 
-section#left{
+#left{
 	width:33%;
 	float:left;
-	padding-bottom:1em;
 	display:inline-block;
 	margin-right:auto;
 	margin-left:auto;
-	border:2px solid #ccc;
+	border:1px solid #ccc;
 	text-align:center;
 
 }
 
-/*
-	display:block;
-	margin-right:auto;
-	margin-left:auto;
-	text-align:center;
-}*/
 
 #right{
 	width:33%;
 	float:left;
 	padding-bottom:1em;
 	display:inline-block;
+	margin-right:auto;
+	margin-left:auto;
+	border:1px solid #ccc;
+	text-align:center;
 }
 
 #middle{
@@ -320,6 +317,10 @@ section#left{
 	float:left;
 	padding-bottom:1em;
 	display:inline-block;
+	margin-right:auto;
+	margin-left:auto;
+	border:1px solid #ccc;
+	text-align:center;
 }
 
 
@@ -328,7 +329,6 @@ section#left{
 	background: url("../img/icons_lectures.svg");
 	width:200px;
 	height:200px;
-	background-position: center; 
 	display:block;
 	margin-right:auto;
 	margin-left:auto;
@@ -339,7 +339,6 @@ section#left{
 	background: url("../img/icons_exercises.svg");
 	width:200px;
 	height:200px;
-	background-position: center; 
 	display:block;
 	margin-right:auto;
 	margin-left:auto;
@@ -351,7 +350,6 @@ section#left{
 	background: url("../img/icons_quizzes.svg");
 	width:200px;
 	height:200px;
-	background-position: center; 
 	display:block;
 	margin-right:auto;
 	margin-left:auto;
