@@ -109,6 +109,26 @@ input, select, textarea {
 
 /* ID selectors */
 
+#currentquiz {
+	background-color: #1253A4;
+}
+
+
+#currentquiz a:link h3 {
+	color: #F4F4F2;
+}
+
+#currentquiz a:visited h3 {
+	color: #F4F4F2;
+}
+
+#currentquiz a:hover h3 {
+	color: #ffd464;
+	-webkit-transition: all 0.5s; 
+    transition: all 0.5s;
+}
+
+
 #submit {
 	padding: 15px;
 	background-color: #F4F4F2;
