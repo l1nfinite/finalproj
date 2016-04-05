@@ -324,7 +324,7 @@ section#left{
 
 
 
-#bulbasaur{
+#lectures{
 	background: url("../img/icons_lectures.svg");
 	width:200px;
 	height:200px;
@@ -335,7 +335,7 @@ section#left{
 	text-align:center;
 	}
 
-#charmander{
+#exercises{
 	background: url("../img/icons_exercises.svg");
 	width:200px;
 	height:200px;
@@ -347,7 +347,7 @@ section#left{
 
 }
 
-#squirtle{
+#quizzes{
 	background: url("../img/icons_quizzes.svg");
 	width:200px;
 	height:200px;
