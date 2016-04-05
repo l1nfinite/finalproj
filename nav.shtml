@@ -1,6 +1,6 @@
 <header>
 	<nav>
-		<a href="index.html" id="logo">COMP1950</h1>
+		<a href="../index.html" id="logo">COMP1950</h1>
 			<p id="header-text">intermediate web design and development</p>
 		</a>
 		<ul>
