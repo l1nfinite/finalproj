@@ -25,6 +25,15 @@ tr {
 	border: solid 1px #1253a4;
 }
 
+ul, li {
+	list-style-type: none;
+	margin-left: 0px;
+}
+
+li {
+	text-indent: -2em;
+	padding-bottom: 0.75em;
+}
 
 /* Class selectors */
 .tba{
