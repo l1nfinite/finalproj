@@ -44,6 +44,15 @@ h3{
 
 }
 
+h4{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	color: #30302f;
+	text-transform: uppercase;
+
+}
+
 p {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
