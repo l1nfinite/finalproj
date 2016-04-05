@@ -4,9 +4,9 @@
 			<p id="header-text">intermediate web design and development</p>
 		</a>
 		<ul>
-			<li><a href="lectures/index.html">lectures</a></li>
-			<li><a href="exercises-homework/index.html">session files</a></li>
-			<li><a href="quizzes/index.html">quizzes</a></li>
+			<li><a href="/students/lnguyen86/finalproj/lectures/index.html">lectures</a></li>
+			<li><a href="/students/lnguyen86/finalproj/exercises-homework/index.html">session files</a></li>
+			<li><a href="/students/lnguyen86/finalproj/quizzes/index.html">quizzes</a></li>
 		</ul>
 	</nav>
 </header>
