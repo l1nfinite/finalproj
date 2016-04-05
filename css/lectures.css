@@ -9,11 +9,107 @@ section#lecture{
 }
 
 
+#side-nav-style{
+	position:fixed;
+	height:100%;
+	width:13em;
+	border-right:0.1em solid #ddd;
+	top:3.65em;
+	padding-top:2em;
+	font: 300 0.9em 'roboto','arial', sans-serif;
+	padding-right:2em;
+}
+
+
+
+#side-nav-style ul li{
+	list-style-type:none;
+	margin:0.25em auto;
+
+}
+
+
+#side-nav-style ul li ul{
+	list-style-type:none;
+	padding-left:2.5em;
+	font: 300 0.9em 'roboto', sans-serif;
+
+}
+
+/*
+#side-nav-style ul li ul li:hover{
+	background-color:#fff;
+	display:inline-block;
+}
+*/
+
+/*nav parent*/
+
+
+
 #side-nav-wrapper a{
 	text-decoration:none;
 	border-bottom:none;
+	font: 300 1em 'roboto', sans-serif;
+	margin:0.25em;
+
 
 }
+
+#side-nav-style ul li a:link{
+	color:#30302f;
+
+}
+
+#side-nav-style ul li a:visited{
+	color:#30302f;
+
+}
+
+#side-nav-style ul li a:hover{
+	color:#ffd464;
+	margin:0.25em;
+
+
+}
+
+#side-nav-style ul li a:active{
+	color:#30302f;
+
+}
+
+
+
+#side-nav-style ul li a#current-week{
+	font-weight:400;
+
+}
+
+
+/*nav children*/
+#side-nav-style ul li ul a{
+	color:#30302f;
+	font-weight:300;
+	letter-spacing:0.08em;
+
+}
+
+#side-nav-style ul li:hover{
+	list-style-type:none;
+	margin-left:auto;
+	margin-right:auto;
+	-webkit-transition: all 0.5s; 
+    transition: all 0.5s;
+}
+
+#side-nav-style #disabled li a{
+	color:#ccc;
+}
+
+
+
+
+/*
 
 #side-nav-wrapper nav{
 	background-color:#F4F4F2;
@@ -23,7 +119,7 @@ section#lecture{
 	border-right:0.1em solid #ddd;
 	top:3.65em;
 	padding-top:2em;
-	display:block;
+
 
 }
 
@@ -93,9 +189,6 @@ section#lecture{
 	padding-left:1em;
 	/*display:none;*/
 
-}
+}*/
 
-#current-week{
-	background-color:#fff;
 
-}
