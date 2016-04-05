@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Navigation</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
 <header>
 		<nav>
 			<a href="index.html" id="logo">COMP1950</h1>
@@ -7,7 +15,8 @@
 				<li><a href="lectures/index.html">lectures</a></li>
 				<li><a href="exercises-homework/index.html">session files</a></li>
 				<li><a href="quizzes/index.html">quizzes</a></li>
-			<ul>
+			</ul>
 		</nav>
 	
 	</header>
+</html>
