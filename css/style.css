@@ -9,15 +9,14 @@
 html, body{
 	margin:0;
 	padding:0;
-	height:100%;
 }
 
 body {
 	background-color: #F4F4F2;
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
-	height:100%;
 	margin-left:0;
+	height:100%;
 }
 
 h1 {
@@ -159,19 +158,20 @@ section{
 #page-wrapper{
 	min-height:100%;
 	position:relative;
+	height:100%;
 
 }
 
 footer{
-	background-color:#ccc;
-	/*margin-top:55em;*/
 	position:absolute;
 	bottom:0;
+	width:100%;
 	display:block;
 	padding-top:1.2em;
 	padding-left:1em;
 	font-size:0.85em;
 	height:5em;
+	background-color:#ccc;
 
 }
 
@@ -182,6 +182,7 @@ footer span{
 
 footer span p{
 	display:inline-block;
+	padding-left:1em;
 
 }
 
