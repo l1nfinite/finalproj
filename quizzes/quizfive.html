@@ -18,91 +18,93 @@
 
 	<!--#include virtual="/students/lnguyen86/finalproj/nav.shtml" -->
 
+	<div id="page-wrapper">
+			<section id="main">
 
-	<section id="main">
+				<h1>Quizzes</h1>
+				<h2>Quiz #5</h2>
 
-		<h1>Quizzes</h1>
-		<h2>Quiz #5</h2>
+				<i>This quiz is to be done individually and is closed book.</i>
 
-		<i>This quiz is to be done individually and is closed book.</i>
+				<fieldset>
+						<form action="" method="post">
+							<label class="labelstyle" for="fullname">Full  name</label>
+										
+							<input	type="text"
+									id="fullname"
+									name="fullname"/>
 
-		<fieldset>
-				<form action="" method="post">
-					<label class="labelstyle" for="fullname">Full  name</label>
-								
-					<input	type="text"
-							id="fullname"
-							name="fullname"/>
+							<label class="labelstyle" for="studentnumber">Student number</label>
+							<input	type="text"
+									id="studentnumber"
+									name="studentnumber"/>
 
-					<label class="labelstyle" for="studentnumber">Student number</label>
-					<input	type="text"
-							id="studentnumber"
-							name="studentnumber"/>
+							<label class="labelstyle" for="questionone">1. Name at least two things that you should do to a web page to display it for printing. (2 marks)</label>
+							<textarea cols="30" rows="4" name="questionone" id="questionone"></textarea>
+							
+							<label class="labelstyle">2. Media queries can be applied either in the <i>link</i> tag or defined in an external CSS file. (1 mark)</label>
+							
+							<input	type="radio"
+									class="radiostyle"
+									id="optionA"
+									name="prefix"
+									value="optionA"/>
+							<label class="radiolabel" for="optionA">True</label>
 
-					<label class="labelstyle" for="questionone">1. Name at least two things that you should do to a web page to display it for printing. (2 marks)</label>
-					<textarea cols="30" rows="4" name="questionone" id="questionone"></textarea>
 					
-					<label class="labelstyle">2. Media queries can be applied either in the <i>link</i> tag or defined in an external CSS file. (1 mark)</label>
-					
-					<input	type="radio"
-							class="radiostyle"
-							id="optionA"
-							name="prefix"
-							value="optionA"/>
-					<label class="radiolabel" for="optionA">True</label>
+							<input	type="radio"
+									class="radiostyle"
+									id="optionB"
+									name="prefix"
+									value="optionB"/>
+							<label class="radiolabel" for="optionB">False</label>
 
+							<label class="labelstyle" for="questionthree">3. Complete the CSS rule below to ensure images will scale to the size of the parent. (2 marks)
+							</label>
+							<code>&nbsp;&nbsp; img&#123; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#125;</code>
+							<br/><br/>
+							<textarea cols="30" rows="4" name="questionthree" id="questionthree"></textarea>
+
+							<label class="labelstyle">4. Choose the media query breakpoint that will match when the browser viewport is thinnest. (1 mark)</label>
 			
-					<input	type="radio"
-							class="radiostyle"
-							id="optionB"
-							name="prefix"
-							value="optionB"/>
-					<label class="radiolabel" for="optionB">False</label>
+							<input	type="radio"
+									class="radiostyle2"
+									id="optionA"
+									name="prefix"
+									value="optionA"/>
+							<label class="radiolabel2" for="optionA">@media only screen and (min-width:1024px)</label>
 
-					<label class="labelstyle" for="questionthree">3. Complete the CSS rule below to ensure images will scale to the size of the parent. (2 marks)
-					</label>
-					<code>&nbsp;&nbsp; img&#123; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#125;</code>
-					<br/><br/>
-					<textarea cols="30" rows="4" name="questionthree" id="questionthree"></textarea>
+							<input	type="radio"
+									class="radiostyle2"
+									id="optionB"
+									name="prefix"
+									value="optionB"/>
+							<label class="radiolabel2" for="optionB">@media only screen and (min-width:300px) and (max-width:800px)</label>
 
-					<label class="labelstyle">4. Choose the media query breakpoint that will match when the browser viewport is thinnest. (1 mark)</label>
-	
-					<input	type="radio"
-							class="radiostyle2"
-							id="optionA"
-							name="prefix"
-							value="optionA"/>
-					<label class="radiolabel2" for="optionA">@media only screen and (min-width:1024px)</label>
+							<input	type="radio"
+									class="radiostyle2"
+									id="optionB"
+									name="prefix"
+									value="optionB"/>
+							<label class="radiolabel2" for="optionB">@media only screen and (min-width:800px) and (max-width:1024px)</label>
+						
+							<label class="labelstyle" for="questionfive">5. Write the media query breakpoint for when a browser viewport is less than 400px tall. (2 marks)
+							</label>
+							<textarea cols="30" rows="4" name="questionfive" id="questionfive"></textarea>
 
-					<input	type="radio"
-							class="radiostyle2"
-							id="optionB"
-							name="prefix"
-							value="optionB"/>
-					<label class="radiolabel2" for="optionB">@media only screen and (min-width:300px) and (max-width:800px)</label>
+							<label class="labelstyle" for="questionsix">6. Name at least two design best practices when styling for small devices. (2 marks)
+							</label>
+							<textarea cols="30" rows="4" name="questionsix" id="questionsix"></textarea>
+							<br/>
+							<input id="submit" type="submit" value="Submit Quiz">
+						</form>
+					</fieldset>
 
-					<input	type="radio"
-							class="radiostyle2"
-							id="optionB"
-							name="prefix"
-							value="optionB"/>
-					<label class="radiolabel2" for="optionB">@media only screen and (min-width:800px) and (max-width:1024px)</label>
-				
-					<label class="labelstyle" for="questionfive">5. Write the media query breakpoint for when a browser viewport is less than 400px tall. (2 marks)
-					</label>
-					<textarea cols="30" rows="4" name="questionfive" id="questionfive"></textarea>
+				</section>
 
-					<label class="labelstyle" for="questionsix">6. Name at least two design best practices when styling for small devices. (2 marks)
-					</label>
-					<textarea cols="30" rows="4" name="questionsix" id="questionsix"></textarea>
-					<br/>
-					<input id="submit" type="submit" value="Submit Quiz">
-				</form>
-			</fieldset>
 
-	</section>
-
-	<!--#include virtual="/students/lnguyen86/finalproj/footer.shtml" -->
+		<!--#include virtual="/students/lnguyen86/finalproj/footer.shtml" -->
+	</div>
 </body>
 
 </html>

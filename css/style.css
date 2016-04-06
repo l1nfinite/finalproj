@@ -19,6 +19,10 @@ body {
 	height:100%;
 }
 
+p {
+	width: 70%;
+}
+
 h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
