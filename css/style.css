@@ -161,7 +161,7 @@ header nav ul li a:active{
 	border-bottom:none;
 }
 
-section{
+section#main{
 	margin-top:7em;
 	margin-bottom:5em;
 }
