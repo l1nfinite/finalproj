@@ -60,6 +60,15 @@ p {
 	color: #30302f;
 }
 
+
+#lecture code{
+	font-family:'courier new', serif;
+	color:#1253A4;
+	font-size:0.9em;
+	display:block;
+	padding-left:5em;
+
+}
 a:link {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
