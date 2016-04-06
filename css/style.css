@@ -185,8 +185,8 @@ section#main{
 }
 
 footer{
-	position:fixed;
-	bottom:0px;
+	/*position:fixed;
+	bottom:0px;*/
 	width:100%;
 	display:block;
 	padding-top:1.2em;
