@@ -8,6 +8,12 @@ p, li{
 	font-size:1.3em;
 }
 
+p{
+	padding-top:1em;
+	line-height:1.3em;
+	width:100%;
+}
+
 nav{
 	position:static;
 }
@@ -20,4 +26,26 @@ section#lecture{
 	margin-left:auto;
 	margin-right:auto;
 	width:80%;
+}
+
+h1{
+	font-size:4em;
+}
+
+h2{
+	font-size:1.75em;
+}
+
+h3{
+	font-size:1.5em;
+}
+
+h4{
+	font-size:1.3em;
+}
+
+#lecture code{
+	font-size:1.25em;
+	font-weight:bold;
+	letter-spacing:0.05em;
 }
