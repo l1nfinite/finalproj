@@ -112,50 +112,6 @@ section#lecture{
 
 
 
-/* styles for printers */
-@media print { 
-	
-	body{
-	font-family:"arial";
-	}
-	h1, h2, h3, h4, h5, h6{
-		font-family:"times new roman";
-	}
-
-	section {
-		margin-right: auto;
-		margin-left: auto;
-		padding: 0px 10px 0px 10px;
-	}	
-
-	header nav, footer{
-		display:none;
-
-	}
-
-	nav>li>a}{
-		display:none;
-	}
-
-	a[href^="http://"]:link:after, 
-	a[href^="http://"]:visited:after{
-	   content: " (URL: " attr(href) ") ";
-	   font-size: 90%;
-	}
-
-	#side-nav-wrapper{
-		display:none;
-	}
-
-	#side-nav-style{
-		display:none;
-	}
-
-	.button{
-		display:none;
-	}
-}
-
 
 
 
