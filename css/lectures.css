@@ -17,6 +17,8 @@ section#lecture{
 	padding-top:2em;
 	font: 300 0.9em 'roboto','arial', sans-serif;
 	padding-right:2em;
+	z-index:1;
+	background-color:#f4f4f2;
 }
 
 
