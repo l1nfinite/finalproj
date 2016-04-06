@@ -64,9 +64,15 @@ section#lecture{
 }
 
 #side-nav-style ul li a:active{
-	color:#30302f;
+	/*color:#30302f;*/
+	color: #ffd464;
 
 }
+
+.active { 
+	color: #ffd464;
+}
+
 
 
 
