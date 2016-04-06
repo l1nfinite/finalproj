@@ -111,11 +111,7 @@ section#lecture{
 }
 
 
-/* styles for screens */
-@media screen{ 
-	
 
-}
 /* styles for printers */
 @media print { 
 	
@@ -125,9 +121,12 @@ section#lecture{
 	h1, h2, h3, h4, h5, h6{
 		font-family:"times new roman";
 	}
-	/*section:nth-child(n+1){
-		page-break-before:always;
-	}*/
+
+	section {
+		margin-right: auto;
+		margin-left: auto;
+		padding: 0px 10px 0px 10px;
+	}	
 
 	header nav, footer{
 		display:none;
@@ -149,6 +148,10 @@ section#lecture{
 	}
 
 	#side-nav-style{
+		display:none;
+	}
+
+	.button{
 		display:none;
 	}
 }
