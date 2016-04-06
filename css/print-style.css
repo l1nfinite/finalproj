@@ -1,0 +1,33 @@
+/* STYLING FOR PRINT*/
+body{
+	font-family:"arial";
+}
+h1, h2, h3, h4, h5, h6{
+	font-family:"times new roman";
+}
+/*section:nth-child(n+1){
+	page-break-before:always;
+}*/
+
+header nav, footer{
+	display:none;
+
+}
+
+nav>li>a}{
+	display:none;
+}
+
+a[href^="http://"]:link:after, 
+a[href^="http://"]:visited:after{
+   content: " (URL: " attr(href) ") ";
+   font-size: 90%;
+}
+
+#side-nav-wrapper{
+	display:none;
+}
+
+#side-nav-style{
+	display:none;
+}
