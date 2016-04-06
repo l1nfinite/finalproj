@@ -258,6 +258,10 @@ ul.squarelist {
 
 /* ID selectors */
 
+#sitemap {
+	width: 75%;
+}
+
 #currentpage{
 	border-bottom:0.19em solid #f4f4f2;
 	padding-bottom:0.1em;
