@@ -20,9 +20,6 @@ body {
 	margin-left:0;
 }
 
-p {
-	width: 70%;
-}
 
 h1 {
 	font-family: 'Montserrat', sans-serif;
@@ -254,6 +251,10 @@ ul.squarelist {
 
 .topsection {
 	margin-top: 6em;
+}
+
+.textblock {
+	width: 70%;
 }
 
 /* ID selectors */
