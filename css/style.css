@@ -9,6 +9,7 @@
 html, body{
 	margin:0;
 	padding:0;
+	height:100%;
 }
 
 body {
@@ -16,7 +17,6 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	margin-left:0;
-	height:100%;
 }
 
 p {
@@ -333,6 +333,7 @@ a#logo:active{
 #wrapper{
 	margin-right:5em;
 	margin-left:5em;
+	padding-top:5em;
 }
 
 #left{
